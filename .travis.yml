@@ -4,4 +4,4 @@ jdk:
   
 script: 
   - ant build
-  - java TestCalculadora
+  - junit TestCalculadora

@@ -1,7 +1,9 @@
 language: java
 jdk:
   - oraclejdk12
-   
+
+sudo: false
+
 script: 
   - ant build
-  - TestCalculadora
+  - test TestCalculadora

@@ -2,6 +2,12 @@ language: java
 jdk:
   - oraclejdk12
   
+addons:
+  apt:
+    packages:
+    - junit 
+    
 script: 
   - ant build
-  - ant test
+  - junit TestCalculadora
+

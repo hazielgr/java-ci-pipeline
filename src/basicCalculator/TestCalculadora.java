@@ -16,7 +16,7 @@ public class TestCalculadora extends TestCase {
 	}
 	public void testRestar() {
 		escenario();
-		assertTrue(calculadora.restar(4,2)==(4-2));
+		assertTrue(calculadora.restar(4,2)==(6-2));
 	}
 	public void testMultiplicar() {
 		escenario();

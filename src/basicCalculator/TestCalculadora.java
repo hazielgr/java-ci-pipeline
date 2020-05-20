@@ -1,8 +1,8 @@
 package basicCalculator;
 
-import junit.framework.TestCase;
+import static org.junit.Assert.*;
 
-public class TestCalculadora extends TestCase {
+public class TestCalculadora{
 	private Calculate calculadora;
 	
 	

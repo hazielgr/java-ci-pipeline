@@ -1,8 +1,8 @@
 package basicCalculator;
 
-import static org.junit.Assert.*;
+import junit.framework.TestCase;
 
-public class TestCalculadora{
+public class TestCalculadora extends TestCase {
 	private Calculate calculadora;
 	
 	
@@ -12,7 +12,7 @@ public class TestCalculadora{
 	
 	public void testSumar() {
 		escenario();
-		assertTrue(calculadora.sumar(2,2)==(3+2));
+		assertTrue(calculadora.sumar(2,2)==(+2));
 	}
 	public void testRestar() {
 		escenario();

@@ -1,0 +1,16 @@
+<project default="create-jar"  name="Basic Calc">
+    <target name="run" depends="compile">
+        <java classname="basicCalculator.Calculate.
+        java">
+            <classpath path="classes"/>
+        </java>
+    </target>
+    <target name="create-jar" depends="compile">
+        <jar destfile="sucess.jar">
+            <fileset dir="classes" includes="**/*"/>
+        </jar>
+    </target>
+    <target name="compile">
+        <javac includeantruntime="false" srcdir="./src" destdir="classes"/>
+    </target>
+</project>

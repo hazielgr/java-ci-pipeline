@@ -9,5 +9,5 @@ addons:
     
 script: 
   - ant build
-  - junit TestCalculadora
+  - java TestCalculadora
 

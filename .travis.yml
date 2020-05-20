@@ -5,9 +5,11 @@ jdk:
 addons:
   apt:
     packages:
-    - junit 
-    
+    - junit  
+     
 script: 
   - ant build
-  - java TestCalculadora
-
+  
+stages:
+  - test
+  - name: TestCalculadora

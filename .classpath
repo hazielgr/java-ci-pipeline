@@ -6,6 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/mario/Downloads/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="src/lib/junit-4.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -3,4 +3,4 @@ jdk:
   - oraclejdk12
   
 script: 
-  - ant dist
+  - ant build

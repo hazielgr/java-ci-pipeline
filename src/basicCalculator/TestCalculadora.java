@@ -12,7 +12,7 @@ public class TestCalculadora extends TestCase {
 	
 	public void testSumar() {
 		escenario();
-		assertTrue(calculadora.sumar(2,2)==(2+2));
+		assertTrue(calculadora.sumar(2,2)==(3+2));
 	}
 	public void testRestar() {
 		escenario();

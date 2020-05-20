@@ -9,4 +9,4 @@ addons:
      
 script: 
   - ant build
-  - ant test TestCalculadora
+  - test TestCalculadora

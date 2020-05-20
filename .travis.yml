@@ -2,6 +2,4 @@ language: java
 jdk:
   - oraclejdk12
   
-script:
-  - java TestCalculadora 
-  - ant build
+script: ant build

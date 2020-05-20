@@ -1,5 +1,6 @@
 package basicCalculator;
 
+
 public class Calculate {
 	public int sumar(int a, int b) {
 		return a+b;

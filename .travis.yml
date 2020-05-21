@@ -1,15 +1,15 @@
 language: java
 jdk:
   - oraclejdk12
-  
+ 
 dist: trusty
 
 addons:
   sonarcloud:
     organization: "hazielgr"
     token:
-      secure: "b81b8574a4c6bff45139a1602730d5c09eab0887"
-
+      secure: travis encrypt "07f80f50bf33a6dbda8f98754c9ff7a5e50f53f0"
+      
 script:
   - ant build
   - sonar-scanner

@@ -8,7 +8,7 @@ addons:
   sonarcloud:
     organization: "hazielgr"
     token:
-      secure: travis encrypt bafb6842076367af68330d2d6cb81e635abf1bb7
+      secure: "fc6439f89c4c7c7f54e9be6c3133d2bab022f599"
 
 script:
   - ant build

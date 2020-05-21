@@ -1,11 +1,15 @@
+language: java
+jdk:
+  - oraclejdk12
+  
+dist: trusty
+
 addons:
   sonarcloud:
     organization: "hazielgr"
     token:
       secure: "b81b8574a4c6bff45139a1602730d5c09eab0887"
 
-language: java
-
 script:
-  - ant dist
+  - ant build
   - sonar-scanner

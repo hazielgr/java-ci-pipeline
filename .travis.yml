@@ -8,7 +8,7 @@ addons:
   sonarcloud:
     organization: "hazielgr"
     token:
-      secure: "a1fa8c1e856686bf9dc6d502a5e3e6b061da184b"
+      secure: "a2EGyPGnMlNDvQUBwFYjS9BzwCc0rar6ScTnxrOe4OWmUNcA6pr/m3M53qj/fqr4unA2Z7V9QKMHbQpqaM9VAdjvoE2GHCrONxunX0kjFK573dy8XdLdtdzATgUC5c6xHtvCmgS7SUDA3uuzfWPtYS1hWotyI8NJ6z4qUJx4eBrbUKBY/VXcV9PxvnAq9h1YSud28dbqf258rTjU19EwEmolfrN8Z5Qsjcx+/XUgEH9Bjccm0pxGFnBHviw39el3lVHW6DY4/ns2tZSgM2ApwHiFgUkeAK8aaLr1PJUZU9FPcvF3YoMeioGck4Zs1YY9+172yaR8+3aoemr+vuMZSfsRj3/sD3h0jyEna73jt5t+AUcdsl7MqNK2UJFZBDFohdC0iBJtyjEriFht7wondtMZP6QmcsUWSsagZvk4+qjxhzJz092r1mDz+NMS7UFtTemMlhpBhC1WZ9+1HEJ2p2PmhTv/hZ+LGXK8mJGPJ2IcdLOZIryTSA9gBdzA/u8js2BZSFNyYWvDq45Q3z6D3GRhXg3vHE/X9VxBkQWCY7SodfQo0Vo4h+6JsvoYQrs+tMLeAajAi3SEh3irjwyYnQABLonZEYiTLsgiWagJlVtUGuCXu2XowpKaUwPcYkEhUJwabqv89CXUY/1IKd2bGoviUNosMI8/oDX4Tjb3fhc="
       
 script:
   - ant build

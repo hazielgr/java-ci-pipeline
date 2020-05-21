@@ -16,5 +16,7 @@ public class Calculate {
 	}
 	
 	public static void main(String[] args) {
+		Calculate calculadora = new Calculate();
+		System.out.println(calculadora.sumar(2, 3));
 	}
 }

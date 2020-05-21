@@ -12,11 +12,11 @@ public class TestCalculadora extends TestCase {
 	
 	public void testSumar() {
 		escenario();
-		assertTrue(calculadora.sumar(2,2)==(3+2));
+		assertTrue(calculadora.sumar(2,2)==(2+2));
 	}
 	public void testRestar() {
 		escenario();
-		assertTrue(calculadora.restar(4,2)==(6-2));
+		assertTrue(calculadora.restar(4,2)==(4-2));
 	}
 	public void testMultiplicar() {
 		escenario();
